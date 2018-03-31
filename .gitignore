@@ -1,0 +1,9 @@
+*.log
+/Library
+/Temp
+/UnityPackageManager
+/.vs
+*.csproj
+*.sln
+/BundleExported
+/Assets/UnityEngine.AssetGraph/Cache/
