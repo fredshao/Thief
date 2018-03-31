@@ -71,7 +71,17 @@ namespace UnityStandardAssets.CrossPlatformInput
 		}
 
 
-		public void OnDrag(PointerEventData data)
+        public void OnDrag(PointerEventData data) {
+            Vector3 currPos = new Vector3(data.position.x, data.position.y, 0);
+            Vector3 moveDir = (currPos - m_StartPos).normalized;
+            float movedMagnitude = (currPos - m_StartPos).magnitude;
+            movedMagnitude = Mathf.Clamp(movedMagnitude, 0, MovementRange);
+            transform.position = m_StartPos + moveDir * movedMagnitude;
+        }
+
+
+
+        public void OnDrag_(PointerEventData data)
 		{
 			Vector3 newPos = Vector3.zero;
 
@@ -96,7 +106,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public void OnPointerUp(PointerEventData data)
 		{
 			transform.position = m_StartPos;
-			UpdateVirtualAxes(m_StartPos);
+			//UpdateVirtualAxes(m_StartPos);
 		}
 
 
