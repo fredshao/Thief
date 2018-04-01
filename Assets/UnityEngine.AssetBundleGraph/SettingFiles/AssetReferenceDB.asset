@@ -120,66 +120,6 @@ MonoBehaviour:
     m_variantName: 
     m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  - m_assetDatabaseId: 3debdee79e3251e4096f03dc6f112bfb
-    m_importFrom: Assets/VioletFramework/ConfigModule/Editor/CodeEditor.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: d045fdcd48d93544b893a7d12daae32f
-    m_importFrom: Assets/VioletFramework/ConfigModule/Editor/ConfigExportor.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 4ade74bc7eaa0a34f8ac1c46e4a0562c
-    m_importFrom: Assets/VioletFramework/ConfigModule/Interfaces/IPoolableObject.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 58e7815259a298043b7c7504cd2b9f9d
-    m_importFrom: Assets/VioletFramework/ConfigModule/AbstractConfVO.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 0a47f98910eae6f418d5102b7214a735
-    m_importFrom: Assets/VioletFramework/ConfigModule/ByteArray.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 921df36e183bf634e9a9625bcf359221
-    m_importFrom: Assets/VioletFramework/ConfigModule/ConfigManager.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 8f3844f0fb757e747a6473f58fd0a359
-    m_importFrom: Assets/VioletFramework/ConfigModule/CSV.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: fcaf71e09e5fb94488eddeacb6ddc515
-    m_importFrom: Assets/VioletFramework/ConfigModule/DES.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: 28c72e2da46cae9458f379d9c9839d70
-    m_importFrom: Assets/VioletFramework/ConfigModule/FileUtils.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_assetDatabaseId: f5af962082e1cb049ae712d77bb0cb23
-    m_importFrom: Assets/VioletFramework/ConfigModule/ObjectUtils.cs
-    m_exportTo: 
-    m_variantName: 
-    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   - m_assetDatabaseId: 66ac4739a9fca6f45bcccd5227c896b9
     m_importFrom: Assets/VioletFramework/ConfigTable/ConfigTable.cs
     m_exportTo: 
@@ -816,54 +756,6 @@ MonoBehaviour:
     m_variantName: 
     m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 7105a0cadeb43244cb5032df654a933f
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/building
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/building
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 79f350bd14600254db1e31f68e307bd6
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/building.manifest
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/building.manifest
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 87f5cb1d82181ad4fb4b116966feb75c
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/configdata
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/configdata
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 6c175de80fea47543b0ad04b43696d6f
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/configdata.manifest
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/configdata.manifest
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: c4dbea7915f5fc44b83ee618329374de
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/scenething
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/scenething
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 28a8a1d4c8623854daea6618ea8c69f6
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/scenething.manifest
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/scenething.manifest
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: eccce2c89f1acb94580460af31f5600c
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/unit
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/unit
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: b1925a7493697e14fac302f13d8446fc
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/unit.manifest
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/unit.manifest
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   - m_assetDatabaseId: b2b26e464241f1443a09b0908906e377
     m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/Windows
     m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/Windows
@@ -873,18 +765,6 @@ MonoBehaviour:
   - m_assetDatabaseId: 451ea1c57ef76c244a2c7b325886caba
     m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/Windows.manifest
     m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/Windows.manifest
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: c4e52af097109c243995f68cbc5a4fd2
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/world
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/world
-    m_variantName: 
-    m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - m_assetDatabaseId: 821ff4bbe61df0d47b417ea6f46004b2
-    m_importFrom: Assets/UnityEngine.AssetBundleGraph/Cache/AssetBundles/95cd3332-6087-45fe-9380-be7a62904a73/Windows/world.manifest
-    m_exportTo: D:/TreaslandGames/violet_client/Bundles/Windows/world.manifest
     m_variantName: 
     m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

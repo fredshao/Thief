@@ -99,7 +99,7 @@ MonoBehaviour:
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.Exporter, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2V4cG9ydFBhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkQ6L0JhZEJveC9UaGllZi9CdW5kbGVzIn1dfSwibV9leHBvcnRPcHRpb24iOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6MH1dfSwibV9mbGF0dGVuRGlyIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjF9XX19
+      m_instanceData: B64|eyJtX2V4cG9ydFBhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkQ6L0JhZEJveC9UaGllZi9DbGllbnQvVG1wQnVuZGxlcyJ9XX0sIm1fZXhwb3J0T3B0aW9uIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fZmxhdHRlbkRpciI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoxfV19fQ==
     m_inputPoints:
     - id: c7890206-9c55-472b-bd4f-2ebdeb80282e
       label: '-'

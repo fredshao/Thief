@@ -320,15 +320,17 @@ namespace UnityEngine.AssetBundles.GraphTool {
 		[MenuItem(Model.Settings.GUI_TEXT_MENU_BUILD, false, 1 + 101)]
 		public static void BuildFromMenu () {
 			var window = GetWindow<AssetBundleGraphEditorWindow>();
+            /*
             // 先导出资源Json文件
             AssetsGenerator.GenerateAssetData();
 
 
             if (HardwareUtil.IsWindows()) {
                 // 打包配置表数据
-                //ConfigTableEditor.PackageCSVData();
+                //ConfigTableEditor.PackageCSVData()：;
                 ConfigTableExportorEditor.PackCSVData();
             }
+            */
 
 			window.SaveGraph();
 			window.Run();
@@ -351,6 +353,7 @@ namespace UnityEngine.AssetBundles.GraphTool {
 
             window.target = _target;
 
+            /*
             // 先导出资源Json文件
             AssetsGenerator.GenerateAssetData();
 
@@ -360,6 +363,7 @@ namespace UnityEngine.AssetBundles.GraphTool {
                 //ConfigTableEditor.PackageCSVData();
                 ConfigTableExportorEditor.PackCSVData();
             }
+            */
 
             window.SaveGraph();
             window.Run();

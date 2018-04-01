@@ -6,9 +6,9 @@ using System.IO;
 using System.Diagnostics;
 
 public class GenerateBundleInfo : Editor {
-    private static string versionInfoPath = Application.dataPath + "/../Bundles/BundleSize.info";
-    private static string bundlePath = Application.dataPath + "/../Bundles/";
-    private static string targetBundlePath = Application.dataPath + "/../../../Update/AssetBundle/";
+    private static string versionInfoPath = Application.dataPath + "/../TmpBundles/BundleSize.info";
+    private static string bundlePath = Application.dataPath + "/../TmpBundles/";
+    private static string targetBundlePath = Application.dataPath + "/../../Bundles/";
     public static BuildTarget buildTarget = BuildTarget.NoTarget;
 
     //[MenuItem("BunnyTools/导出Bundle信息文件")]
@@ -38,6 +38,7 @@ public class GenerateBundleInfo : Editor {
         // 将Bundle拷贝到目标Bundle
         foreach(string bundleFile in files) {
             string targetPath = bundleCopyToPath + System.IO.Path.GetFileName(bundleFile);
+            Ulog.Log("TargetPath:" + targetPath + "    " + bundleCopyToPath);
             File.Copy(bundleFile, targetPath);
         }
 
