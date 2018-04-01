@@ -14,7 +14,7 @@ public class MapManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        mapPath = Application.streamingAssetsPath + "/" + mapName;
+        mapPath = "file://" + Application.streamingAssetsPath + "/" + mapName;
         StartCoroutine(LoadMap());
     }
 	
