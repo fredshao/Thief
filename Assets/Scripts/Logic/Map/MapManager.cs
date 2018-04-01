@@ -33,6 +33,7 @@ public class MapManager : MonoBehaviour {
 
 
     private Dictionary<int,GridNode> ParseMap(string _json) {
+        Debug.Log("Json ################: " + _json);
         Dictionary<int, GridNode> gridNodes = JsonConvert.DeserializeObject<Dictionary<int, GridNode>>(_json);
 
         // 处理一下, 找到整个地图的左下起点，然后计算出偏移，将所有的点往0，0点偏移
