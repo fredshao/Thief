@@ -16,22 +16,31 @@ public class PlayerController : MonoBehaviour {
     private float y;
     private float currMoveSpeed = 0;
 	
-	void Update () {
+	void FixedUpdate () {
 
         x = BadBoxCrossPlatformInput.GetXAxis();
         y = BadBoxCrossPlatformInput.GetYAxis();
 
         Vector3 moveVector = (transform.right * x + transform.forward * y).normalized;
 
+       
+
         float speedPercentage = BadBoxCrossPlatformInput.GetSpeedPercentage();
         currMoveSpeed = moveSpeed * speedPercentage;
 
-        move = moveVector * currMoveSpeed * Time.deltaTime;
-        transform.Translate(move);
 
         currRotSpeed = maxRotSpeed * speedPercentage;
         currRotSpeed = Mathf.Clamp(currRotSpeed, minRotSpeed, maxRotSpeed);
         playerMesh.Rotate(new Vector3(0, currRotSpeed, 0));
+
+        move = moveVector * currMoveSpeed * Time.deltaTime;
+       
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, moveVector, out hit, 0.5f)) {
+            return;
+        }
+
+        transform.Translate(move);
     }
 
     

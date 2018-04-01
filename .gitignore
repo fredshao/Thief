@@ -7,3 +7,5 @@
 *.sln
 /BundleExported
 /Assets/UnityEngine.AssetGraph/Cache/
+/Assets/Tmp/
+/Assets/Tmp.meta
