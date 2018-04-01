@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 2591125538
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95b857a0b31c322ed6c8e56608eeabd1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/ABRes/Data/MapTemplates/6_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/9_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/5_MapTemplate.json
+- Assets/Res/ABRes/Data/assetData.json
+- Assets/Res/ABRes/Data/MapTemplates/3_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/2_MapTemplate.json
+- Assets/Res/ABRes/Data/Config.bytes
+- Assets/Res/ABRes/Data/MapTemplates/1_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/4_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/7_MapTemplate.json
+- Assets/Res/ABRes/Data/MapTemplates/8_MapTemplate.json
+Dependencies: []

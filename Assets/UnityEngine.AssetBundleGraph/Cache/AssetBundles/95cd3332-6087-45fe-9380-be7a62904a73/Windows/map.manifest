@@ -1,0 +1,95 @@
+ManifestFileVersion: 0
+CRC: 1396757439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dd102080971ebc91038e3d784365c85c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c18e3dc68ad95d249c681719b31171d2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/ABRes/Map/1000045_Tree02_Prefab.prefab
+- Assets/Res/ABRes/Map/1000009_Rock1_Prefab.prefab
+- Assets/Res/ABRes/Map/1000034_Cactus02_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000028_Dunes08_Prefab.prefab
+- Assets/Res/ABRes/Map/1000036_RockChip01_Prefab.prefab
+- Assets/Res/ABRes/Map/1000039_PalmTree01_Prefab.prefab
+- Assets/Res/ABRes/Map/1000010_Rock2_Prefab.prefab
+- Assets/Res/ABRes/Map/1000040_PalmTree02_Prefab.prefab
+- Assets/Res/ABRes/Map/1000002_Building1_Prefab.prefab
+- Assets/Res/ABRes/Map/1000017_Rock9_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid7_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid1_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000031_Dunes11_Prefab.prefab
+- Assets/Res/ABRes/Map/1000033_Cactus01_Prefab.prefab
+- Assets/Res/ABRes/Map/1000014_Rock6_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000029_Dunes09_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid3_Prefab.prefab
+- Assets/Res/ABRes/Map/1000005_BuildingField3_Prefab.prefab
+- Assets/Res/ABRes/Map/1000043_PalmTree05_Prefab.prefab
+- Assets/Res/ABRes/Map/1000012_Rock4_Prefab.prefab
+- Assets/Res/ABRes/Map/1000016_Rock8_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid9_Prefab.prefab
+- Assets/Res/ABRes/Map/1000042_PalmTree04_Prefab.prefab
+- Assets/Res/ABRes/Map/1000004_BuildingField2_Prefab.prefab
+- Assets/Res/ABRes/Map/1000001_GroundPlane_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid8_Prefab.prefab
+- Assets/Res/ABRes/Map/1000008_OilField2_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000025_Dunes05_Prefab.prefab
+- Assets/Res/ABRes/Map/1000038_RockChip03_Prefab.prefab
+- Assets/Res/ABRes/Map/1000015_Rock7_Prefab.prefab
+- Assets/Res/ABRes/Map/1000018_Rock10_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000022_Dunes02_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000024_Dunes04_Prefab.prefab
+- Assets/Res/ABRes/Map/1000003_BuildingField1_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid4_Prefab.prefab
+- Assets/Res/ABRes/Map/1000011_Rock3_Prefab.prefab
+- Assets/Res/ABRes/Map/1000006_Cow_Prefab.prefab
+- Assets/Res/ABRes/Map/1000019_Rock11_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000030_Dunes10_Prefab.prefab
+- Assets/Res/ABRes/Map/1000041_PalmTree03_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000021_Dunes01_Prefab.prefab
+- Assets/Res/ABRes/Map/1000007_OilField1_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000027_Dunes07_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000032_Dunes12_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid2_Prefab.prefab
+- Assets/Res/ABRes/Map/1000037_RockChip02_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid5_Prefab.prefab
+- Assets/Res/ABRes/Map/1000013_Rock5_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000023_Dunes03_Prefab.prefab
+- Assets/Res/ABRes/Map/Templates/MapGrid6_Prefab.prefab
+- Assets/Res/ABRes/Map/1000035_Cactus03_Prefab.prefab
+- Assets/Res/ABRes/Map/1000020_Ruins_Prefab.prefab
+- Assets/Res/ABRes/Map/Dunes/1000026_Dunes06_Prefab.prefab
+- Assets/Res/ABRes/Map/1000044_Tree01_Prefab.prefab
+Dependencies: []

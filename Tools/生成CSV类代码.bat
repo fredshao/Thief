@@ -1,0 +1,1 @@
+ConfigExportor.exe -e ../CSV/ ../Assets/Scripts/ConfigVO/

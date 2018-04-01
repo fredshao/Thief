@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7cfce4400474688aa803f13d8eb448, type: 3}
+  m_Name: AssetBundleBuildMap
+  m_EditorClassIdentifier: 
+  m_assetBundles:
+  - m_assetBundleName: map
+    m_assetBundleVariantName: 
+    m_fullName: map
+    m_assets:
+    - original: Assets/Prefab/Map/Cube.prefab
+      lower: assets/prefab/map/cube.prefab
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
+  - m_assetBundleName: player
+    m_assetBundleVariantName: 
+    m_fullName: player
+    m_assets:
+    - original: Assets/Prefab/Player/Player.prefab
+      lower: assets/prefab/player/player.prefab
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
+  m_version: 1

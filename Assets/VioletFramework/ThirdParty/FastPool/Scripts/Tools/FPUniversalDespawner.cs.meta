@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 38de0c3c62b76244b9d994c4dc4b5302
+labels:
+- FastPool
+- Pool
+- AutoDespawn
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
