@@ -463,22 +463,32 @@ Prefab:
     - target: {fileID: 224250931168535910, guid: e40f5dd8bc410a047838b513700e68b5,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 224250931168535910, guid: e40f5dd8bc410a047838b513700e68b5,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 224409738860948240, guid: e40f5dd8bc410a047838b513700e68b5,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 350
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 224409738860948240, guid: e40f5dd8bc410a047838b513700e68b5,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 350
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114759236710863962, guid: e40f5dd8bc410a047838b513700e68b5,
+        type: 2}
+      propertyPath: MovementRadius
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 114759236710863962, guid: e40f5dd8bc410a047838b513700e68b5,
+        type: 2}
+      propertyPath: axesToUse
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e40f5dd8bc410a047838b513700e68b5, type: 2}
