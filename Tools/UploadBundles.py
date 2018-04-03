@@ -16,12 +16,18 @@ ssh.connect(host,port,username,password)
 
 scp = SCPClient(ssh.get_transport())
 
-os.chdir('../../Bundles')
-
+os.chdir('../../Bundles/Windows/')
 for root,dirs,files in os.walk('./'):
 	for file in files:
 		print('Uploading: ',file)
-		scp.put(file, remote_path = '/var/www/html/Thief/Bundles/')
+		scp.put(file, remote_path = '/var/www/html/Thief/Bundles/Windows')
+
+
+os.chdir('../../Bundles/iOS/')
+for root,dirs,files in os.walk('./'):
+	for file in files:
+		print('Uploading: ',file)
+		scp.put(file, remote_path = '/var/www/html/Thief/Bundles/iOS')
 
 print('Upload Successful!')
 scp.close()

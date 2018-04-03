@@ -14,8 +14,8 @@ MonoBehaviour:
   m_allNodes:
   - m_name: Load From Directory
     m_id: df006d68-5f12-4618-acb1-262e69a18423
-    m_x: 48
-    m_y: 288
+    m_x: 72
+    m_y: 96
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.Loader, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -34,8 +34,8 @@ MonoBehaviour:
         height: 23
   - m_name: Configure Bundle From Group
     m_id: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
-    m_x: 588
-    m_y: 312
+    m_x: 516
+    m_y: 120
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleConfigurator, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -64,8 +64,8 @@ MonoBehaviour:
         height: 23
   - m_name: Build Asset Bundles
     m_id: 95cd3332-6087-45fe-9380-be7a62904a73
-    m_x: 912
-    m_y: 252
+    m_x: 816
+    m_y: 108
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleBuilder, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -92,30 +92,10 @@ MonoBehaviour:
         y: 32.5
         width: 10
         height: 23
-  - m_name: Export To Directory
-    m_id: ed514d76-6629-4858-9c0d-1b7e4f4125d3
-    m_x: 1152
-    m_y: 240
-    m_nodeInstance:
-      m_className: UnityEngine.AssetBundles.GraphTool.Exporter, Assembly-CSharp-Editor,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2V4cG9ydFBhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkQ6L0JhZEJveC9UaGllZi9DbGllbnQvVG1wQnVuZGxlcyJ9XX0sIm1fZXhwb3J0T3B0aW9uIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fZmxhdHRlbkRpciI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoxfV19fQ==
-    m_inputPoints:
-    - id: c7890206-9c55-472b-bd4f-2ebdeb80282e
-      label: '-'
-      parentId: ed514d76-6629-4858-9c0d-1b7e4f4125d3
-      isInput: 1
-      buttonRect:
-        serializedVersion: 2
-        x: 0
-        y: 29.5
-        width: 21
-        height: 29
-    m_outputPoints: []
   - m_name: Group By File Path
     m_id: 020b6c43-1db3-4b6b-8e6a-8a8c2f1fca94
-    m_x: 336
-    m_y: 312
+    m_x: 288
+    m_y: 96
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.Grouping, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -142,6 +122,26 @@ MonoBehaviour:
         y: 32.5
         width: 10
         height: 23
+  - m_name: Export To Directory
+    m_id: 4519f8c9-0a5e-4bde-9948-30183a9fca19
+    m_x: 912
+    m_y: 276
+    m_nodeInstance:
+      m_className: UnityEngine.AssetBundles.GraphTool.Exporter, Assembly-CSharp-Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_instanceData: B64|eyJtX2V4cG9ydFBhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkQ6L0JhZEJveC9UaGllZi9DbGllbnQvVG1wQnVuZGxlcyJ9XX0sIm1fZXhwb3J0T3B0aW9uIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fZmxhdHRlbkRpciI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoxfV19fQ==
+    m_inputPoints:
+    - id: 6b222144-1f00-4912-94e2-4b7d9b3809c4
+      label: '-'
+      parentId: 4519f8c9-0a5e-4bde-9948-30183a9fca19
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints: []
   m_allConnections:
   - m_id: 4c073da6-009a-4677-a03b-fbe41efd3c7a
     m_fromNodeId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
@@ -149,25 +149,25 @@ MonoBehaviour:
     m_toNodeId: 95cd3332-6087-45fe-9380-be7a62904a73
     m_toNodeConnectionPoiontId: fbf9963b-2081-4fe4-8bb9-de5178f65b3d
     m_label: +
-  - m_id: 30bd2d79-5113-4a6f-bfdc-2296a2552e98
-    m_fromNodeId: 95cd3332-6087-45fe-9380-be7a62904a73
-    m_fromNodeConnectionPointId: d9c23999-8229-486b-a276-dcb947251397
-    m_toNodeId: ed514d76-6629-4858-9c0d-1b7e4f4125d3
-    m_toNodeConnectionPoiontId: c7890206-9c55-472b-bd4f-2ebdeb80282e
-    m_label: +
-  - m_id: 6a3ffdbe-d9cf-47ad-b258-5d50bb307398
+  - m_id: 9d05c19c-87d8-42b9-865a-714275a90959
     m_fromNodeId: df006d68-5f12-4618-acb1-262e69a18423
     m_fromNodeConnectionPointId: 4079c0cb-9737-4013-81f2-030f3e090f31
     m_toNodeId: 020b6c43-1db3-4b6b-8e6a-8a8c2f1fca94
     m_toNodeConnectionPoiontId: 4f422f21-b3a6-4df9-85fa-ea39a57dd7db
     m_label: +
-  - m_id: 596e4303-1f64-4ffc-83e8-6eda145c32b9
+  - m_id: 1b3cda89-2ae1-42b8-9475-e0481cb0ed7a
     m_fromNodeId: 020b6c43-1db3-4b6b-8e6a-8a8c2f1fca94
     m_fromNodeConnectionPointId: 3c18c46b-19a0-4f9d-bde9-f0b189921c76
     m_toNodeId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
     m_toNodeConnectionPoiontId: bf269e80-334f-49d1-9110-1cd9661a904d
     m_label: +
-  m_lastModified: 131478645614889806
+  - m_id: 8b58abf1-8254-4886-9ebd-e4ff61018339
+    m_fromNodeId: 95cd3332-6087-45fe-9380-be7a62904a73
+    m_fromNodeConnectionPointId: d9c23999-8229-486b-a276-dcb947251397
+    m_toNodeId: 4519f8c9-0a5e-4bde-9948-30183a9fca19
+    m_toNodeConnectionPoiontId: 6b222144-1f00-4912-94e2-4b7d9b3809c4
+    m_label: +
+  m_lastModified: 131672454353553546
   m_version: 2
   m_graphDescription: 
   m_useAsAssetPostprocessor: 0

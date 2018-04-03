@@ -17,6 +17,14 @@ public class GenerateBundleInfo : Editor {
         exportor.ExportVersionInfo(versionInfoPath, bundlePath);
     }
 
+    public static void ClearTmpBundleDirectory() {
+        if (Directory.Exists(bundlePath)) {
+            Directory.Delete(bundlePath);
+        }
+
+        Directory.CreateDirectory(bundlePath);
+    }
+
     //[MenuItem("BunnyTools/TestCopyFile")]
     public static void CopyBundle() {
         // 获取导出来的Bundle

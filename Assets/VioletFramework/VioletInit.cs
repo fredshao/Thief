@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 /// 用户继承框架指定的类，并Override指定方法，实现框架启动完成后，会调用到用户逻辑启动
 /// </summary>
 public class VioletInit {
+    /*
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void OnBeforeSceneLoadRuntimeMethod() {
         OnBefore();
@@ -28,9 +29,9 @@ public class VioletInit {
     }
 
     private static void BeforeAwake() {
-        if (!InitVioletConfig()) {
-            return;
-        }
+        //if (!InitVioletConfig()) {
+        //    return;
+        //}
         QualitySettings.SetQualityLevel(5);
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = -1;
@@ -38,10 +39,10 @@ public class VioletInit {
     }
 
     private static void AfterStart() {
-        VioletAbstractGameIniter gameIniter = GetUserGameIniter();
-        if (gameIniter != null) {
-            gameIniter.InitGame();
-        }
+        //VioletAbstractGameIniter gameIniter = GetUserGameIniter();
+        //if (gameIniter != null) {
+        //    gameIniter.InitGame();
+        //}
     }
 
 
@@ -99,4 +100,5 @@ public class VioletInit {
             return null;
         }
     }
+    */
 }
