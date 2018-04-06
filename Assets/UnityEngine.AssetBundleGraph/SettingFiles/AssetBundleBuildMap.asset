@@ -22,6 +22,8 @@ MonoBehaviour:
       lower: assets/prefab/data/mapdata/map_01.json
     - original: Assets/Prefab/Data/MapData/map_02.json
       lower: assets/prefab/data/mapdata/map_02.json
+    - original: Assets/Prefab/Data/MapData/map_03.json
+      lower: assets/prefab/data/mapdata/map_03.json
     m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
   - m_assetBundleName: map
     m_assetBundleVariantName: 

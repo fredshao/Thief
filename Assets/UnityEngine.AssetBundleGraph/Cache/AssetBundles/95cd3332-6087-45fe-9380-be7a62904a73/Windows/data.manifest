@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 366240065
+CRC: 783655871
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d02516d8b3b82d984b73491340e1c265
+    Hash: 0518afaa2a73cd8da4b6e2adf4d48d7f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
@@ -13,6 +13,7 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Prefab/Data/MapData/map_01.json
+- Assets/Prefab/Data/MapData/map_03.json
 - Assets/Prefab/Data/MapData/map_02.json
 - Assets/Prefab/Data/MapData/MapConfig.json
 Dependencies: []

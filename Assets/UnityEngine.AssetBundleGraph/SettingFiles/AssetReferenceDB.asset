@@ -8135,4 +8135,10 @@ MonoBehaviour:
     m_variantName: 
     m_assetTypeString: UnityEngine.AssetBundles.GraphTool.AssetBundleReference, Assembly-CSharp-Editor,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 4014375731eb0f44e99262c0c82a9831
+    m_importFrom: Assets/Prefab/Data/MapData/map_03.json
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_version: 2
