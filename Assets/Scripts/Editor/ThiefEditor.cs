@@ -7,31 +7,31 @@ using System.IO;
 
 public class ThiefEditor : Editor {
 
-    [MenuItem("BunnyTools/导出WindowsX64 Bundles")]
+    [MenuItem("ThiefEditor/导出WindowsX64 Bundles")]
     public static void BuildAssetBundleForWindowsX64() {
         GenerateBundleInfo.ClearTmpBundleDirectory();
         AssetBundleGraphEditorWindow.BuildFromEditorScripts(BuildTarget.StandaloneWindows64);
     }
 
-    [MenuItem("BunnyTools/导出OSX Bundles")]
+    [MenuItem("ThiefEditor/导出OSX Bundles")]
     public static void BuildAssetBundleForOSX() {
         GenerateBundleInfo.ClearTmpBundleDirectory();
         AssetBundleGraphEditorWindow.BuildFromEditorScripts(BuildTarget.StandaloneOSX);
     }
 
-    [MenuItem("BunnyTools/导出iOS Bundles")]
+    [MenuItem("ThiefEditor/导出iOS Bundles")]
     public static void BuildAssetBundleForiOS() {
         GenerateBundleInfo.ClearTmpBundleDirectory();
         AssetBundleGraphEditorWindow.BuildFromEditorScripts(BuildTarget.iOS);
     }
 
-    [MenuItem("BunnyTools/导出Android Bundles")]
+    [MenuItem("ThiefEditor/导出Android Bundles")]
     public static void BuildAssetBundleForAndroid() {
         GenerateBundleInfo.ClearTmpBundleDirectory();
         AssetBundleGraphEditorWindow.BuildFromEditorScripts(BuildTarget.Android);
     }
 
-    [MenuItem("BunnyTools/清除缓存的Bundle")]
+    [MenuItem("ThiefEditor/清除缓存的Bundle")]
     public static void ClearCachingBundles() {
         CachingClearEditor.ClearCachingBundles();
     }
@@ -51,7 +51,7 @@ public class ThiefEditor : Editor {
     //    ConfigTableExportorEditor.PackCSVData();
     //}
 
-    [MenuItem("BunnyTools/导出Bundle信息文件")]
+    [MenuItem("ThiefEditor/导出Bundle信息文件")]
     public static void ToGenerateBundleInfo() {
         GenerateBundleInfo.ToGenerateBundleInfo();
     }

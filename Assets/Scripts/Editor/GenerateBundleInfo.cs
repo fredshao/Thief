@@ -19,7 +19,7 @@ public class GenerateBundleInfo : Editor {
 
     public static void ClearTmpBundleDirectory() {
         if (Directory.Exists(bundlePath)) {
-            Directory.Delete(bundlePath);
+            Directory.Delete(bundlePath,true);
         }
 
         Directory.CreateDirectory(bundlePath);

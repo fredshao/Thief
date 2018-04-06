@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
     }
 
-    public const string UIUpdate = "UpdateUI.prefab";
+    
 
 
     private Dictionary<string, AbstractUI> uiDict = new Dictionary<string, AbstractUI>();
@@ -26,6 +26,7 @@ public class UIManager : MonoBehaviour {
         string uiNameNoExt = System.IO.Path.GetFileNameWithoutExtension(_uiName);
         GameObject ui = BadBox.mBundle.GetAsset<GameObject>(uiPath);
         if(ui != null) {
+            ui.SetActive(true);
             AbstractUI abstractUI = ui.GetComponent<AbstractUI>();
             ui.name = uiNameNoExt;
             ui.transform.SetParent(root);
@@ -39,6 +40,32 @@ public class UIManager : MonoBehaviour {
             Ulog.LogError("打开UI失败:" + uiNameNoExt);
         }
     }
+
+    public T OpenUI<T>(string _uiName) where T : AbstractUI {
+        if (uiDict.ContainsKey(_uiName)) {
+            return null;
+        }
+        string uiPath = PathConst.UIPath(_uiName);
+        string uiNameNoExt = System.IO.Path.GetFileNameWithoutExtension(_uiName);
+        GameObject ui = BadBox.mBundle.GetAsset<GameObject>(uiPath);
+        if (ui != null) {
+            ui.SetActive(true);
+            AbstractUI abstractUI = ui.GetComponent<AbstractUI>();
+            ui.name = uiNameNoExt;
+            ui.transform.SetParent(root);
+            ui.transform.localPosition = Vector3.zero;
+            ui.transform.localScale = Vector3.one;
+            ui.GetComponent<RectTransform>().offsetMin = Vector2.zero;
+            ui.GetComponent<RectTransform>().offsetMax = Vector2.zero;
+            uiDict.Add(_uiName, abstractUI);
+            abstractUI.OpenUI();
+            return (T)abstractUI;
+        } else {
+            Ulog.LogError("打开UI失败:" + uiNameNoExt);
+        }
+        return null;
+    }
+
 
     public void OpenStaticUI(string _uiName) {
         if (uiDict.ContainsKey(_uiName)) {

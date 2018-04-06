@@ -64,6 +64,7 @@ public class BundleSystem : BaseModule {
 
     public int progress {
         get {
+            /*
             if (loader.isDown) {
                 return 100;
             } else {
@@ -71,6 +72,12 @@ public class BundleSystem : BaseModule {
                 progress = Mathf.Clamp(progress, 0, 100);
                 return progress;
             }
+            */
+
+            int progress = (int)(((float)downloadedBytes / (float)totalNeedDownloadBytes) * 100);
+            progress = Mathf.Clamp(progress, 0, 100);
+
+            return progress;
         }
     }
 
@@ -264,6 +271,8 @@ public class BundleSystem : BaseModule {
             Hash128 bundleHash = cachedBundleEnumer.Current.Value;
             string bundleUrl = GetRemoteBundleUrl(_remoteBundlePath, bundleName);
 
+            Ulog.Log("加载缓存的Bundle: ", bundleName);
+
             BundleLoadResult bundleLoadResult = await loader.LoadBundleAsync(bundleUrl, bundleHash);
 
             if(bundleLoadResult.state == BundleLoadState.Faild) {
@@ -301,6 +310,8 @@ public class BundleSystem : BaseModule {
                 string bundleName = uncachedBundleEnumer.Current.Key;
                 Hash128 bundleHash = uncachedBundleEnumer.Current.Value;
                 string bundleUrl = GetRemoteBundleUrl(_remoteBundlePath, bundleName);
+
+                Ulog.Log("加载未缓存的Bundle: ", bundleName);
 
                 bundleSystemState = EN_BundleSystemState.OnLoadingRemoteBundle;
                 currBundleIndex = bundleIndex;
@@ -389,6 +400,10 @@ public class BundleSystem : BaseModule {
                 UnityEngine.Debug.LogError(String.Format("无法从Bundle中加载资源 {0}", _fullAssetName));
                 return null;
             }
+        }
+
+        if(typeof(T) == typeof(GameObject)) {
+            return GameObject.Instantiate(loadedAssetDict[_fullAssetName] as T);
         }
 
         return loadedAssetDict[_fullAssetName] as T;

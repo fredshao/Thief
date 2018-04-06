@@ -12,73 +12,23 @@ MonoBehaviour:
   m_Name: AssetBundleBuildMap
   m_EditorClassIdentifier: 
   m_assetBundles:
-  - m_assetBundleName: bundle_0
+  - m_assetBundleName: data
     m_assetBundleVariantName: 
-    m_fullName: bundle_0
+    m_fullName: data
     m_assets:
-    - original: Assets/Prefab/Map/Cube.prefab
-      lower: assets/prefab/map/cube.prefab
-    - original: Assets/Prefab/MapData/dyc_1.json
-      lower: assets/prefab/mapdata/dyc_1.json
-    - original: Assets/Prefab/MapData/map_01.json
-      lower: assets/prefab/mapdata/map_01.json
-    - original: Assets/Prefab/Player/Player.prefab
-      lower: assets/prefab/player/player.prefab
-    - original: Assets/Prefab/UI/UpdateUI.prefab
-      lower: assets/prefab/ui/updateui.prefab
-    - original: Assets/Prefab/Map/Cube.prefab
-      lower: assets/prefab/map/cube.prefab
-    m_registererId: 544d44d8-b1dc-4e42-a18d-d003ec001940
-  - m_assetBundleName: aaa_0
-    m_assetBundleVariantName: 
-    m_fullName: aaa_0
-    m_assets:
-    - original: Assets/Prefab/Map/Cube.prefab
-      lower: assets/prefab/map/cube.prefab
-    m_registererId: d12aedf9-449c-4c6b-9d1f-2e51c347ceaa
-  - m_assetBundleName: aaa_1
-    m_assetBundleVariantName: 
-    m_fullName: aaa_1
-    m_assets:
-    - original: Assets/Prefab/MapData/dyc_1.json
-      lower: assets/prefab/mapdata/dyc_1.json
-    m_registererId: d12aedf9-449c-4c6b-9d1f-2e51c347ceaa
-  - m_assetBundleName: aaa_2
-    m_assetBundleVariantName: 
-    m_fullName: aaa_2
-    m_assets:
-    - original: Assets/Prefab/MapData/map_01.json
-      lower: assets/prefab/mapdata/map_01.json
-    m_registererId: d12aedf9-449c-4c6b-9d1f-2e51c347ceaa
-  - m_assetBundleName: aaa_3
-    m_assetBundleVariantName: 
-    m_fullName: aaa_3
-    m_assets:
-    - original: Assets/Prefab/Player/Player.prefab
-      lower: assets/prefab/player/player.prefab
-    m_registererId: d12aedf9-449c-4c6b-9d1f-2e51c347ceaa
-  - m_assetBundleName: aaa_4
-    m_assetBundleVariantName: 
-    m_fullName: aaa_4
-    m_assets:
-    - original: Assets/Prefab/UI/UpdateUI.prefab
-      lower: assets/prefab/ui/updateui.prefab
-    m_registererId: d12aedf9-449c-4c6b-9d1f-2e51c347ceaa
+    - original: Assets/Prefab/Data/MapData/MapConfig.json
+      lower: assets/prefab/data/mapdata/mapconfig.json
+    - original: Assets/Prefab/Data/MapData/map_01.json
+      lower: assets/prefab/data/mapdata/map_01.json
+    - original: Assets/Prefab/Data/MapData/map_02.json
+      lower: assets/prefab/data/mapdata/map_02.json
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
   - m_assetBundleName: map
     m_assetBundleVariantName: 
     m_fullName: map
     m_assets:
-    - original: Assets/Prefab/Map/Cube.prefab
-      lower: assets/prefab/map/cube.prefab
-    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
-  - m_assetBundleName: mapdata
-    m_assetBundleVariantName: 
-    m_fullName: mapdata
-    m_assets:
-    - original: Assets/Prefab/MapData/dyc_1.json
-      lower: assets/prefab/mapdata/dyc_1.json
-    - original: Assets/Prefab/MapData/map_01.json
-      lower: assets/prefab/mapdata/map_01.json
+    - original: Assets/Prefab/Map/Wall.prefab
+      lower: assets/prefab/map/wall.prefab
     m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
   - m_assetBundleName: player
     m_assetBundleVariantName: 
@@ -86,5 +36,14 @@ MonoBehaviour:
     m_assets:
     - original: Assets/Prefab/Player/Player.prefab
       lower: assets/prefab/player/player.prefab
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
+  - m_assetBundleName: ui
+    m_assetBundleVariantName: 
+    m_fullName: ui
+    m_assets:
+    - original: Assets/Prefab/UI/UILevel.prefab
+      lower: assets/prefab/ui/uilevel.prefab
+    - original: Assets/Prefab/UI/UILevelItem.prefab
+      lower: assets/prefab/ui/uilevelitem.prefab
     m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
   m_version: 1

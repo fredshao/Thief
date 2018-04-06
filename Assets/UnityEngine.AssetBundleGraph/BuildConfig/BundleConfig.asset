@@ -34,8 +34,8 @@ MonoBehaviour:
         height: 23
   - m_name: Configure Bundle From Group
     m_id: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
-    m_x: 516
-    m_y: 120
+    m_x: 324
+    m_y: 264
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleConfigurator, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -64,12 +64,12 @@ MonoBehaviour:
         height: 23
   - m_name: Build Asset Bundles
     m_id: 95cd3332-6087-45fe-9380-be7a62904a73
-    m_x: 816
-    m_y: 108
+    m_x: 624
+    m_y: 348
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleBuilder, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2VuYWJsZWRCdW5kbGVPcHRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjI1Nn1dfSwibV9vdXRwdXREaXIiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IiJ9XX0sIm1fb3V0cHV0T3B0aW9uIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fb3ZlcndyaXRlSW1wb3J0ZXJTZXR0aW5nIjpmYWxzZX0=
+      m_instanceData: B64|eyJtX2VuYWJsZWRCdW5kbGVPcHRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fb3V0cHV0RGlyIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiIifV19LCJtX291dHB1dE9wdGlvbiI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjowfV19LCJtX292ZXJ3cml0ZUltcG9ydGVyU2V0dGluZyI6ZmFsc2V9
     m_inputPoints:
     - id: fbf9963b-2081-4fe4-8bb9-de5178f65b3d
       label: '-'

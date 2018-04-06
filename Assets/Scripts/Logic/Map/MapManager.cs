@@ -1,70 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
+using UnityEngine.SceneManagement;
+using System.Threading.Tasks;
 
 public class MapManager : MonoBehaviour {
 
-    public MapGenerator mapGenerator;
-    public string mapName = "";
+    private MapDataConfig mapData = null;
 
-    private string mapPath = "";
-
-    private Dictionary<int, GridNode> map = null;
-
-	// Use this for initialization
-	void Start () {
-        mapPath = "file://" + Application.streamingAssetsPath + "/" + mapName;
-        StartCoroutine(LoadMap());
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    IEnumerator LoadMap() {
-        WWW www = new WWW(mapPath);
-        yield return www;
-        Debug.Log(www.text);
-        map = ParseMap(www.text);
-        mapGenerator.GenerateMap(map);
-    }
-
-
-    private Dictionary<int,GridNode> ParseMap(string _json) {
-        Debug.Log("Json ################: " + _json);
-        Dictionary<int, GridNode> gridNodes = JsonConvert.DeserializeObject<Dictionary<int, GridNode>>(_json);
-
-        // 处理一下, 找到整个地图的左下起点，然后计算出偏移，将所有的点往0，0点偏移
-
-        int minX = -1;
-        int minZ = -1;
-
-        var enumer = gridNodes.GetEnumerator();
-        while(enumer.MoveNext()){
-            GridNode node = enumer.Current.Value;
-            if(minX < 0 || node.x < minX) {
-                minX = node.x;
-            }
-
-            if(minZ < 0 || node.z < minZ) {
-                minZ = node.z;
-            }
+    public bool EnterMap(string _mapName) {
+        mapData = MapConfig.GetMapData(_mapName);
+        if (mapData == null) {
+            Ulog.LogError("获取地图数据失败：", _mapName);
+            return false;
         }
 
-        enumer = gridNodes.GetEnumerator();
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.LoadScene("Game");
+        return true;
+    }
 
 
-        Debug.Log(minX + "  " + minZ);
+    private void OnSceneLoaded(Scene _scene, LoadSceneMode _mode) {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        GenerateMap(mapData.gridNodes);
+    }
 
+
+  
+
+    
+
+
+    public void GenerateMap(Dictionary<int, GridNode> _map) {
+        GameObject wallObj = BadBox.mBundle.GetAsset(PathConst.MapItemPath(GameConst.MapItem_Wall)) as GameObject;
+
+        GameObject obj = new GameObject("Map");
+        obj.transform.position = Vector3.zero;
+        var enumer = _map.GetEnumerator();
         while (enumer.MoveNext()) {
             GridNode node = enumer.Current.Value;
-            node.x -= minX;
-            node.z -= minZ;
+            GameObject clone = Instantiate(wallObj);
+            clone.transform.SetParent(obj.transform);
+            clone.transform.position = new Vector3(node.x, 0, node.z);
         }
-
-        return gridNodes;
     }
-
 }

@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 224538441362253544}
   - component: {fileID: 114057893180119838}
   m_Layer: 5
-  m_Name: UpdateUI
+  m_Name: UIUpdate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
