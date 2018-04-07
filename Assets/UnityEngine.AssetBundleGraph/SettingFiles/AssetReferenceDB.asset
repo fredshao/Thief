@@ -8141,4 +8141,16 @@ MonoBehaviour:
     m_variantName: 
     m_assetTypeString: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: ebdc1d6fe1c27ea469926487bc58f568
+    m_importFrom: Assets/Prefab/Data/MapData/map_04.json
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 7ccf49c75e7560b49bd68caa18dd1dc5
+    m_importFrom: Assets/Prefab/Data/MapData/map_05.json
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   m_version: 2
