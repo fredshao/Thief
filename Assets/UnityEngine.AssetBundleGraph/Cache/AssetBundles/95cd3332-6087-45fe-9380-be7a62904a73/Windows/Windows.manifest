@@ -1,16 +1,22 @@
 ManifestFileVersion: 0
-CRC: 2922419351
+CRC: 500097453
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: data
+      Name: actor1
       Dependencies: {}
     Info_1:
-      Name: map
+      Name: actor2
       Dependencies: {}
     Info_2:
-      Name: player
+      Name: data
       Dependencies: {}
     Info_3:
+      Name: map
+      Dependencies: {}
+    Info_4:
+      Name: player
+      Dependencies: {}
+    Info_5:
       Name: ui
       Dependencies: {}

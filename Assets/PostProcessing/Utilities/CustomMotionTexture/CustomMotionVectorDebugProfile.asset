@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
-  m_Name: Post-Processing Profile
+  m_Name: CustomMotionVectorDebugProfile
   m_EditorClassIdentifier: 
   debugViews:
     m_Enabled: 1
     m_Settings:
-      mode: 0
+      mode: 3
       depth:
         scale: 1
       motionVectors:
@@ -22,18 +22,18 @@ MonoBehaviour:
         motionImageOpacity: 0
         motionImageAmplitude: 16
         motionVectorsOpacity: 1
-        motionVectorsResolution: 24
+        motionVectorsResolution: 48
         motionVectorsAmplitude: 64
   fog:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       excludeSkybox: 1
   antialiasing:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       method: 0
       fxaaSettings:
-        preset: 4
+        preset: 2
       taaSettings:
         jitterSpread: 0.75
         sharpen: 0.3
@@ -72,7 +72,7 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       focusDistance: 10
-      aperture: 32
+      aperture: 5.6
       focalLength: 50
       useCameraFov: 0
       kernelSize: 1
@@ -80,15 +80,15 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       shutterAngle: 270
-      sampleCount: 24
-      frameBlending: 0.12
+      sampleCount: 10
+      frameBlending: 0
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
-      lowPercent: 45
+      lowPercent: 65
       highPercent: 95
-      minLuminance: -5
-      maxLuminance: 1
+      minLuminance: 0.03
+      maxLuminance: 2
       keyValue: 0.25
       dynamicKeyValue: 1
       adaptationType: 0
@@ -97,12 +97,12 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       bloom:
-        intensity: 0.06
-        threshold: 0.87
-        softKnee: 0.89
+        intensity: 0.5
+        threshold: 1.1
+        softKnee: 0.5
         radius: 4
         antiFlicker: 0
       lensDirt:
@@ -134,26 +134,47 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 0, g: 0, b: 0, a: 0}
-          power: {r: 0, g: 0, b: 0, a: 0}
-          offset: {r: 0, g: 0, b: 0, a: 0}
+          slope:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
+          power:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
+          offset:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
+          gamma:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
+          gain:
+            r: 0
+            g: 0
+            b: 0
+            a: 0
       curves:
         master:
           curve:
-            serializedVersion: 2
             m_Curve:
-            - serializedVersion: 2
-              time: 0
+            - time: 0
               value: 0
               inSlope: 1
               outSlope: 1
               tangentMode: 0
-            - serializedVersion: 2
-              time: 1
+            - time: 1
               value: 1
               inSlope: 1
               outSlope: 1
@@ -166,16 +187,13 @@ MonoBehaviour:
           m_Range: 1
         red:
           curve:
-            serializedVersion: 2
             m_Curve:
-            - serializedVersion: 2
-              time: 0
+            - time: 0
               value: 0
               inSlope: 1
               outSlope: 1
               tangentMode: 0
-            - serializedVersion: 2
-              time: 1
+            - time: 1
               value: 1
               inSlope: 1
               outSlope: 1
@@ -188,16 +206,13 @@ MonoBehaviour:
           m_Range: 1
         green:
           curve:
-            serializedVersion: 2
             m_Curve:
-            - serializedVersion: 2
-              time: 0
+            - time: 0
               value: 0
               inSlope: 1
               outSlope: 1
               tangentMode: 0
-            - serializedVersion: 2
-              time: 1
+            - time: 1
               value: 1
               inSlope: 1
               outSlope: 1
@@ -210,16 +225,13 @@ MonoBehaviour:
           m_Range: 1
         blue:
           curve:
-            serializedVersion: 2
             m_Curve:
-            - serializedVersion: 2
-              time: 0
+            - time: 0
               value: 0
               inSlope: 1
               outSlope: 1
               tangentMode: 0
-            - serializedVersion: 2
-              time: 1
+            - time: 1
               value: 1
               inSlope: 1
               outSlope: 1
@@ -232,7 +244,6 @@ MonoBehaviour:
           m_Range: 1
         hueVShue:
           curve:
-            serializedVersion: 2
             m_Curve: []
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -242,7 +253,6 @@ MonoBehaviour:
           m_Range: 1
         hueVSsat:
           curve:
-            serializedVersion: 2
             m_Curve: []
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -252,7 +262,6 @@ MonoBehaviour:
           m_Range: 1
         satVSsat:
           curve:
-            serializedVersion: 2
             m_Curve: []
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -262,7 +271,6 @@ MonoBehaviour:
           m_Range: 1
         lumVSsat:
           curve:
-            serializedVersion: 2
             m_Curve: []
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -296,7 +304,11 @@ MonoBehaviour:
     m_Enabled: 0
     m_Settings:
       mode: 0
-      color: {r: 0, g: 0, b: 0, a: 1}
+      color:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
       center: {x: 0.5, y: 0.5}
       intensity: 0.45
       smoothness: 0.2
@@ -306,6 +318,7 @@ MonoBehaviour:
       rounded: 0
   dithering:
     m_Enabled: 0
+    m_Settings: {}
   monitors:
     currentMonitorID: 0
     refreshOnPlay: 0

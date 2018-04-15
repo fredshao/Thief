@@ -12,6 +12,20 @@ MonoBehaviour:
   m_Name: AssetBundleBuildMap
   m_EditorClassIdentifier: 
   m_assetBundles:
+  - m_assetBundleName: actor1
+    m_assetBundleVariantName: 
+    m_fullName: actor1
+    m_assets:
+    - original: Assets/Prefab/Actor1/Actor1.prefab
+      lower: assets/prefab/actor1/actor1.prefab
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
+  - m_assetBundleName: actor2
+    m_assetBundleVariantName: 
+    m_fullName: actor2
+    m_assets:
+    - original: Assets/Prefab/Actor2/Actor2.prefab
+      lower: assets/prefab/actor2/actor2.prefab
+    m_registererId: 5e2c4ae3-0553-48f8-a065-54ac58e9e8cb
   - m_assetBundleName: data
     m_assetBundleVariantName: 
     m_fullName: data

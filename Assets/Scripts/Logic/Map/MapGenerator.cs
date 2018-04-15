@@ -5,6 +5,7 @@ using UnityEngine;
 public class MapGenerator : MonoBehaviour {
 
     public GameObject cube;
+    public TextAsset mapData;
 
     public void GenerateMap(Dictionary<int, GridNode> _map) {
         GameObject obj = new GameObject("Map");
@@ -16,5 +17,10 @@ public class MapGenerator : MonoBehaviour {
             clone.transform.SetParent(obj.transform);
             clone.transform.position = new Vector3(node.x, 0, node.z);
         }
+    }
+
+    public void GenerateMapOnEditor() {
+        MapDataConfig config = new MapDataConfig(mapData.name, mapData.text);
+        GenerateMap(config.gridNodes);
     }
 }
